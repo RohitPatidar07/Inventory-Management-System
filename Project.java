@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 class InventoryManagementSystem {
 
-    private final String url = "jdbc:mysql://localhost:3306/java";
-    private final String user = "root";  // MySQL username
-    private final String password = "rohitdemo@123";  // MySQL password
+    private final String url = "jdbc:mysql://<localhost>/Database";
+    private final String user = "UserName";  // MySQL username
+    private final String password = "Password";  // MySQL password
 
     // Connect to the MySQL database
     public Connection connect() {
